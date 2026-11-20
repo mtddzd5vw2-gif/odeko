@@ -1,0 +1,24 @@
+:root{--ink:#2b1f1d;--gold:#f2c94c;--bg:#140b07;--card:#2a1c18;--accent:#ffb74a}
+*{box-sizing:border-box}
+body{margin:0;background:radial-gradient(ellipse at 50% 0,#3a2418 0,#140b07 60%) fixed,#140b07;color:#fff3dc;font-family:"Hiragino Maru Gothic ProN","Hiragino Sans","Noto Sans JP",system-ui,sans-serif;line-height:1.8}
+a{color:var(--accent)}
+header{text-align:center;padding:40px 20px 10px}
+header img.icon{width:120px;height:120px;border-radius:26px;box-shadow:0 8px 0 rgba(0,0,0,.4)}
+h1{font-size:40px;margin:14px 0 4px;color:#ffe9a8;text-shadow:0 4px 0 var(--ink)}
+.catch{font-size:18px;margin:0}
+.tags{display:flex;gap:8px;justify-content:center;flex-wrap:wrap;margin:14px 0}
+.tags span{background:rgba(255,255,255,.1);border-radius:20px;padding:2px 12px;font-size:13px}
+.store{display:inline-block;background:linear-gradient(#ffcf5a,#e89a2a);color:var(--ink);font-weight:900;padding:12px 28px;border-radius:14px;text-decoration:none;border:3px solid var(--ink);box-shadow:0 4px 0 #000;margin:8px}
+main{max-width:760px;margin:0 auto;padding:0 18px 40px}
+section{background:rgba(0,0,0,.3);border-radius:18px;padding:18px 22px;margin:18px 0}
+h2{font-size:22px;color:var(--gold);margin:0 0 8px}
+h3{font-size:17px;margin:16px 0 4px;color:#ffe9a8}
+.shots{display:flex;gap:10px;overflow-x:auto;padding:6px 0}
+.shots img{height:420px;border-radius:18px;border:3px solid #000}
+table{width:100%;border-collapse:collapse;font-size:15px}
+td,th{border-bottom:1px solid rgba(255,255,255,.15);padding:6px;text-align:left;vertical-align:top}
+th{width:32%;color:var(--gold);font-weight:700}
+ul{padding-left:20px}
+footer{text-align:center;font-size:13px;opacity:.75;padding:20px}
+footer a{margin:0 6px}
+.doc h1{font-size:28px}
